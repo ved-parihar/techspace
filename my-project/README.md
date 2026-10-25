@@ -73,15 +73,7 @@ my-project/
    ```bash
    cd my-project/backend
    ```
-2. Verify or update your database connection in `.env`:
-   ```env
-   PORT=5000
-   MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/wellspend?retryWrites=true&w=majority
-   JWT_SECRET=your_secret_key_here
-   JWT_EXPIRE=7d
 
-   # Google OAuth (Optional)
-   GOOGLE_CLIENT_ID=your_google_client_id.apps.googleusercontent.com
    ```
 3. Start the backend development server:
    ```bash
